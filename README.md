@@ -2,7 +2,8 @@
 React + Github, desenvolvimento de uma SPA em React e hospedando no GitHub Pages.
 
 
-### FLUXOGRAMA/DIAGRAMA
+### COMANDOS
+
 ```
 flowchart LR
 A[View] -->|Javascript| B(Controller)
@@ -17,6 +18,9 @@ C --> N[Analytics]
 C --> O[Laboratory]
 
 ```
+
+
+### FLUXOGRAMA/DIAGRAMA
 
 ```mermaid
 flowchart LR
