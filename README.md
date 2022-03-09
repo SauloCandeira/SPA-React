@@ -6,7 +6,7 @@ React + Github, desenvolvimento de uma SPA em React e hospedando no GitHub Pages
 
 ```
 flowchart LR
-A[View] -->|Javascript| B(Controller)
+A[React-App] -->|Javascript| B(Controller)
 X[Repository] -->|Firebase| A[React-App]
 B --> |Python| C{APP}
 
