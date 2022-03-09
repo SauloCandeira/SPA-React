@@ -21,7 +21,7 @@ C --> O[Laboratory]
 ```mermaid
 flowchart LR
 A[View] -->|Javascript| B(Controller)
-X[Repository] -->|Firebase| A[React-App]
+X[Repository] -->|SPA-React| A[React-App]
 B --> |Python| C{APP}
 
 C --> J[Tasks]
