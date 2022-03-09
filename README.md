@@ -16,7 +16,7 @@ React + Github, desenvolvimento de uma SPA em React e hospedando no GitHub Pages
 ```mermaid
 flowchart LR
 X[Repository] -->|SPA-React| A[React-App]
-A[React-App] -->|My-App| [GH-Pages]
+A[React-App] -->|My-App| B[GH-Pages]
 
 B --> C{APP}
 C --> J[Tasks]
