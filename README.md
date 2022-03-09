@@ -1,12 +1,12 @@
-# react-gh-pages
-React + Github
+# Sobre o Projeto:
+React + Github, desenvolvimento de uma SPA com github e hospedando no GitHub Pages.
 
 
 ### FLUXOGRAMA/DIAGRAMA
 ```
 flowchart LR
 A[View] -->|Javascript| B(Controller)
-X[Model] -->|Firebase| A[Model]
+X[Repository] -->|Firebase| A[React-App]
 B --> |Python| C{APP}
 
 C --> J[Tasks]
