@@ -5,18 +5,9 @@ React + Github, desenvolvimento de uma SPA em React e hospedando no GitHub Pages
 ### COMANDOS
 
 ```
-flowchart LR
-A[React-App] -->|Javascript| B(Controller)
-X[Repository] -->|Firebase| A[React-App]
-B --> |Python| C{APP}
-
-C --> J[Tasks]
-C --> K[Timeline]
-C --> L[Team]
-C --> M[Daily-Notes]
-C --> N[Analytics]
-C --> O[Laboratory]
-
+1º - Criar Repository
+2º - Criar App
+3º - Deploy
 ```
 
 
@@ -24,10 +15,10 @@ C --> O[Laboratory]
 
 ```mermaid
 flowchart LR
-A[View] -->|Javascript| B[GH-Pages]
 X[Repository] -->|SPA-React| A[React-App]
-B --> |Python| C{APP}
+A[React-App] -->|Javascript| B[GH-Pages]
 
+B --> C{APP}
 C --> J[Tasks]
 C --> K[Timeline]
 C --> L[Team]
