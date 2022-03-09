@@ -1,5 +1,5 @@
 # Sobre o Projeto:
-React + Github, desenvolvimento de uma SPA com github e hospedando no GitHub Pages.
+React + Github, desenvolvimento de uma SPA em React e hospedando no GitHub Pages.
 
 
 ### FLUXOGRAMA/DIAGRAMA
