@@ -20,7 +20,7 @@ C --> O[Laboratory]
 
 ```mermaid
 flowchart LR
-A[View] -->|Javascript| B(GH-Pages)
+A[View] -->|Javascript| B[GH-Pages]
 X[Repository] -->|SPA-React| A[React-App]
 B --> |Python| C{APP}
 
